@@ -1,0 +1,18 @@
+<div class="row">
+  <div class="col s12">
+    <div class="card teal accent-4 hoverable"
+    *ngFor="let quotation of quotes; let odd = odd"
+    [ngClass]="odd ? 'accent-4' : 'accent-5'">
+      <div class="card-content white-text">
+        <span class="card-title">
+          {{quotation.sentence}}
+        </span>
+        {{quotation.author}}
+      </div>
+      <div class="card-action right-align">
+        <span class="badge grey darken-2 left white-text">{{quotation.votes}}</span>
+       <app-vote-buttons (voteValue)="addVote(quotation, $event)"></app-vote-buttons>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,11 @@
+<div class="row edit-row" [class.drawer]="showForm">
+  <div class="input-field col s4">
+    <input type="text" placeholder="Autor" [(ngModel)]="quotation.author" />
+  </div>
+  <div class="input-field col s6">
+    <input type="text" placeholder="Cytat" [(ngModel)]="quotation.sentence" />
+  </div>
+  <div class="input-field col s2">
+    <button class="btn small" (click)="addQuotation()">Dodaj</button>
+  </div>
+</div>
