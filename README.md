@@ -6,6 +6,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
+## Images
+
+<img width="1470" alt="image" src="https://user-images.githubusercontent.com/62337671/218553467-1d88d66b-08bc-45fe-abe8-96088c50f45c.png">
+<img width="1470" alt="image" src="https://user-images.githubusercontent.com/62337671/218553513-09a071b3-f896-4187-a72d-169a844cc377.png">
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
